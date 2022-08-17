@@ -8,6 +8,9 @@ class B{
   public void m1(I obj){
       System.out.println("m1-called...");
   }
+  public I m2(){
+      return new A();
+  }
 }
 public class TestDoubt {
     public static void main(String[] args) {
